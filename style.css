@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    background: black;
+    font-family: 'Roboto', sans-serif;
+    background: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v882-kul-33_1.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=ab21dd4705f03a2312a2a1e7a575d2f6);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.link-hamura {
+    width: 350px;
+    height: 30px;
+    border: solid 3px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 10px;
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 25px;
+    border-radius: 50px;
+}
+
+@media(max-width:767px) {
+    .link-hamura {
+        width: 250px;
+        height: 30px;
+        border: solid 2px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-top: 10px;
+        display: block;
+        font-size: 15px;
+        text-decoration: none;
+        color: white;
+        margin-bottom: 25px;
+        border-radius: 50px;
+    }
+}
+
+.link-hamura:hover {
+    background-color: #fbeb05;
+    color: black;
+}
+
+.header {
+    text-align: center;
+    font-size: 35px;
+}
+
+.header img {
+    width: 130px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.header h3 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.header p {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 25px;
+    font-style: italic;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.footer img {
+    width: 150px;
+}
+
+.footer p {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 10px;
+    color: white;
+}
